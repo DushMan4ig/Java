@@ -19,7 +19,7 @@ public class Main3 {
 
     static void removeInteger(List list){
         for (int i = 0; i < list.size(); i++) {
-            if (list % 2 == 0){ //  Оператор "instanceof" определяет тип данных в листе
+            if (list.get(i) instanceof Integer){ //  Оператор "instanceof" определяет тип данных в листе
                 list.remove(i);
             } 
         }
